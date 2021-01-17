@@ -14,7 +14,7 @@ void subarray(vector<int> arr,int start,int end)
     else
     {
         cout<<"[";
-        for(int i=start;i<end;i++)
+        for(int i=start;i<=end;i++)
         {
             cout<<arr[i]<<",";
         }
